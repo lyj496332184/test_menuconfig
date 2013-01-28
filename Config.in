@@ -1,0 +1,17 @@
+#
+# For a description of the syntax of this configuration file,
+# see scripts/kbuild/config-language.txt.
+#
+
+mainmenu "Test Configuration"
+
+menu "IPv6 Support"
+
+config SUPPORT_IPV6
+	bool "Support IPv6"
+	default n
+	help
+	  Support IPv6.
+
+endmenu
+
